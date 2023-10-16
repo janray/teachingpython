@@ -8,7 +8,7 @@ time_start = 0
 time_end = 5 * np.pi
 time_delta = 0.05
 
-time = np.arange(time_start, time_end, time_delta)
+time = np.arange(time_start, time_end + time_delta, time_delta)
 
 y = np.sin(time) #y = sin(time)
 
